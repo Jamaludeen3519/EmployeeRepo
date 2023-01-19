@@ -1,0 +1,16 @@
+--1th query
+SELECT * FROM Employees WHERE salary BETWEEN (SELECT 20000) AND 45000;
+
+--2th query
+SELECT empname FROM employees WHERE employeename LIKE 'T%';
+
+--3th query
+SELECT * from Department WHERE deptloc='chennai';
+
+--4th query
+SELECT * from Department WHERE Department deptloc='chennai'AND'hyderbad';
+
+--5th query
+SELECT * from Employees WHERE Employees deptloc  NOT IN('chennai', 'hyderbad');
+
+

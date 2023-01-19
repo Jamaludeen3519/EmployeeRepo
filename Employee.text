@@ -1,0 +1,2 @@
+create Table Employee(empid INT,empname TEXT,empsal FLOAT,empdob DATE,emploc TEXT)
+

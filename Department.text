@@ -1,0 +1,1 @@
+create tables Department(depit INT,deptname TEXT,deptloc TEXT)
